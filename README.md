@@ -23,7 +23,7 @@ Behold the power of our methods, especially the multi-task neural network, in cl
   
   ![UMAP Results for GLM](./data/photo/umap_softmax.png)
   
-  ![UMAP Results for Deep Learning Model](./data/photo/umap_transfer_learning.png)
+  ![UMAP Results for Deep Learning Model](./data/photo/umap_deep_learning.png)
 
 - 📈 **ARI and NMI Index**:
   ![Metrics Results](#link-to-metrics-image)
