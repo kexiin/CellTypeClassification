@@ -26,7 +26,13 @@ Behold the power of our methods, especially the multi-task neural network, in cl
   ![UMAP Results for Deep Learning Model](./data/photo/umap_deep_learning.png)
 
 - 📈 **ARI and NMI Index**:
-  ![Metrics Results](#link-to-metrics-image)
+
+| Model | ARI | NMI |
+| --- | --- | --- |
+| Unsupervised Clustering MNN + kmeans | 0.5717 | 0.6139 |
+| GLM with Lasso penalty | 0.9502 | 0.9146 |
+| Transfer Learning and Multi-task Neural Network | 1.0000 | 1.0000 |
+
 
 ## 👥 Collaboration
 A big shout-out to our cosmic crew 🚀, who contributed to data processing, model development, and analysis. Every part of this project has been crafted with utmost care and precision.
