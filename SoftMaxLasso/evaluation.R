@@ -88,40 +88,45 @@ plot_function=function(result)
 {
   p = length(result$theta[,1])
 
-  g1 = ggplot(data.frame(x=1:p,y=result$theta[,1]),aes(x=x,y=y))+
-    geom_point()+
-    ggtitle("Class 1")
-
-  g2 = ggplot(data.frame(x=1:p,y=result$theta[,2]),aes(x=x,y=y))+
-    geom_point()+
-    ggtitle("Class 3")
-
-  g3 = ggplot(data.frame(x=1:p,y=result$theta[,3]),aes(x=x,y=y))+
-    geom_point()+
-    ggtitle("Class 4")
-
-  g4 = ggplot(data.frame(x=1:p,y=result$theta[,4]),aes(x=x,y=y))+
-    geom_point()+
-    ggtitle("Class 5")
-
-  g5 = ggplot(data.frame(x=1:p,y=result$theta[,5]),aes(x=x,y=y))+
-    geom_point()+
-    ggtitle("Class 6")
-
-  g6 = ggplot(data.frame(x=1:p,y=result$theta[,6]),aes(x=x,y=y))+
-    geom_point()+
-    ggtitle("Class 9")
-
-  g7 = ggplot(data.frame(x=1:p,y=result$theta[,7]),aes(x=x,y=y))+
-    geom_point()+
+  g1 = ggplot(data.frame(x = 1:p, y = result$theta[, 1]), aes(x = x, y =
+                                                                    y)) +
+    geom_point() +
+    ggtitle("acinar")
+  
+  g2 = ggplot(data.frame(x = 1:p, y = result$theta[, 2]), aes(x = x, y =
+                                                                    y)) +
+    geom_point() +
+    ggtitle("alpha")
+  
+  g3 = ggplot(data.frame(x = 1:p, y = result$theta[, 3]), aes(x = x, y =
+                                                                    y)) +
+    geom_point() +
+    ggtitle("beta")
+  
+  g4 = ggplot(data.frame(x = 1:p, y = result$theta[, 4]), aes(x = x, y =
+                                                                    y)) +
+    geom_point() +
+    ggtitle("delta")
+  
+  g5 = ggplot(data.frame(x = 1:p, y = result$theta[, 5]), aes(x = x, y =
+                                                                    y)) +
+    geom_point() +
+    ggtitle("ductal")
+  
+  g6 = ggplot(data.frame(x = 1:p, y = result$theta[, 6]), aes(x = x, y =
+                                                                    y)) +
+    geom_point() +
+    ggtitle("gamma")
+  
+  g7 = ggplot(data.frame(x = 1:p, y = result$theta[, 7]), aes(x = x, y =
+                                                                    y)) +
+    geom_point() +
     ggtitle("Class combined")
-
-  g8 = ggplot(data.frame(x=2:length(result$loss),loss=result$loss[2:length(result$loss)]),
-              aes(x=x,y=loss))+
-    geom_line()+
+  
+  g8 = ggplot(data.frame(x = 2:length(result$loss), loss = result$loss[2:length(result$loss)]),
+              aes(x = x, y = loss)) +
+    geom_line() +
     ggtitle("Loss")
-
-  combined_plot=g1+g2+g3+g4+g5+g6+g7+g8+plot_layout(ncol=3)
 
   #ggsave(file.path(dir_name,"combined_plot.png"), plot = combined_plot, width = 10, height = 8, units = "in")
 
