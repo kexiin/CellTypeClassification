@@ -18,7 +18,10 @@ One of our key formulas is the **GLM with Lasso Penalty**:
 Behold the power of our methods, especially the multi-task neural network, in classifying cell types with astronomical accuracy! 🌠
 
 - 📊 **UMAP Visualization**:
-  ![UMAP Results](#link-to-umap-image)
+  ![UMAP Results for MNN and Kmeans](./data/photo/UMAP mnn.png)
+  ![UMAP Results for GLM](./data/photo/UMAP softmax.png)
+  ![UMAP Results for Deep Learning Model](./data/photo/umap transfer_learning.png)
+
 - 📈 **ARI and NMI Index**:
   ![Metrics Results](#link-to-metrics-image)
 
