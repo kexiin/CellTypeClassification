@@ -131,7 +131,7 @@ plot_function=function(result)
 
 accuracy_function = function(result,x_matrix,y,p,k)
 {
-  class_list = c("Class 1","Class 3","Class 4","Class 5","Class 6","Class 9","Class Combined")
+  class_list = c("acinar","alpha","beta","delta","ductal","gamma","Class Combined")
 
   y_predict = softmax_predict(result$theta,x_matrix,y,p,k)
 
