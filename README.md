@@ -12,6 +12,8 @@ We've deployed three main computational wizards:
 ### 📈 Important Formula
 One of our key formulas is the **GLM with Lasso Penalty**:
 
+![Formula](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+
 *Where X is the feature matrix, Y is the response vector, and alpha = 1 implies the lasso penalty.*
 
 ## 🌌 Results
@@ -30,10 +32,4 @@ A big shout-out to our cosmic crew 🚀, who contributed to data processing, mod
 - `Models/`: 🤖 Implementation of the three computational models.
 - `Results/`: 📊 Visualizations and statistical analyses of model performances.
 
-## 🌟 Getting Started
-To join our interstellar journey:
-1. Clone the repo. 🛰
-2. Install required dependencies (see `requirements.txt`). 📚
-3. Follow the instructions in each folder to replicate our analyses. 🚀
-
-Thank you for visiting our project! We welcome your contributions and feedback to make this project even more *out of this world*! 🌍
+Thank you for visiting our project! We welcome your contributions and feedback to make this project even more !
