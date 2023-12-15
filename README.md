@@ -1,4 +1,4 @@
-# 🌟 Pancreas scRNA-seq Reference Atlas Project 🌟
+# 🌟 Data Integration and Cell Type Classification of scRNA-seq Pancreas Dataset 🌟
 
 ## 🚀 Introduction
 Welcome to our *group 5* project repository! 🧬 This project is all about charting new territories in the pancreas using single-cell RNA sequencing (scRNA-seq) data. We're on a mission to conquer the challenges of batch effect correction and data high-dimensionality in scRNA-seq with some seriously advanced computational firepower! 💻
