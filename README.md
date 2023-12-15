@@ -9,11 +9,6 @@ We've deployed three main computational wizards:
 2. **GLM with Lasso Penalty**: 📐 Enhancing feature selection.
 3. **Multi-Task Neural Network**: 🧠 A top-notch approach for cell type classification.
 
-### 📈 Important Formula
-One of our key formulas is the **GLM with Lasso Penalty**:
-
-*Where X is the feature matrix, Y is the response vector, and alpha = 1 implies the lasso penalty.*
-
 ## 🌌 Results
 Behold the power of our methods, especially the multi-task neural network, in classifying cell types with astronomical accuracy! 🌠
 
