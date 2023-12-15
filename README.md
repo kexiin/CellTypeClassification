@@ -19,11 +19,11 @@ Behold the power of our methods, especially the multi-task neural network, in cl
 
 - 📊 **UMAP Visualization**:
 
-  ![UMAP Results for MNN and Kmeans](./data/photo/UMAP mnn.png)
+  ![UMAP Results for MNN and Kmeans](./data/photo/umap_mnn.png)
   
-  ![UMAP Results for GLM](./data/photo/UMAP softmax.png)
+  ![UMAP Results for GLM](./data/photo/umap_softmax.png)
   
-  ![UMAP Results for Deep Learning Model](./data/photo/umap transfer_learning.png)
+  ![UMAP Results for Deep Learning Model](./data/photo/umap_transfer_learning.png)
 
 - 📈 **ARI and NMI Index**:
   ![Metrics Results](#link-to-metrics-image)
